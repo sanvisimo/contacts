@@ -1,0 +1,40 @@
+$body-font-size:	1em;
+
+div.utente{
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+
+  .panel-heading{
+
+    figure{
+      margin: 5px auto;
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+  }
+
+  .panel-body {
+
+    margin: 10px auto;
+
+    p{
+      font-size: $body-font-size;
+      margin: 0;
+      padding: 0;
+      text-transform: none;
+    }
+  }
+
+  .panel-footer {
+    text-align: left;
+  }
+
+}

@@ -1,0 +1,16 @@
+<div class="utente panel panel-default">
+    <div class="panel-heading">
+        <figure [ngStyle]="{'background-image': 'url(' + utente.picture.large + ')'}" routerLink="/utente/{{utente.name.first}}/{{utente.name.last}}">
+            <!--<img [src]="utente.picture.medium" />-->
+        </figure>
+    </div>
+    <div class="panel-body">
+        <h2>{{utente.name.first}} {{utente.name.last}}</h2>
+        <p><b>Phone:</b> {{utente.phone}}</p>
+        <p><b>Email:</b><br /> {{utente.email}}</p>
+    </div>
+
+  <div class="panel-footer">
+    <button class="btn btn-info" (click)="editUtente()"><span class="fa fa-pencil"></span></button>
+  </div>
+</div>

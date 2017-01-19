@@ -1,0 +1,15 @@
+$titolo : #f00;
+
+.container {
+  h1 {
+    color: $titolo;
+    text-align: center;
+    margin: 15px auto;
+  }
+
+  .row {
+    .col {
+      border: 1px solid #000;
+    }
+  }
+}
